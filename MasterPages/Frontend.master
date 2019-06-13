@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Frontend.master.cs" Inherits="MasterPages_Frontend" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>CTT11CĐ3A</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script src="../Scripts/modernizr-2.6.2.js"></script>
+    <style type="text/css">
+        .auto-style1 {
+            font-size: xx-large;
+        }
+    </style>
+</head>
+<body>
+    <header><a> YAMAHA MOTO VIET NAM </a></header>
+
+    <form id="form1" runat="server">
+    <div id="PageWrapper">
+        
+
+        <aside id="Sidebar">
+            Thay đổi nền:<br />
+            <asp:DropDownList ID="ThemeList" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ThemeList_SelectedIndexChanged1">
+                <asp:ListItem>nen1</asp:ListItem>
+                <asp:ListItem>nen2</asp:ListItem>
+            </asp:DropDownList>
+            
+        </aside>
+        <nav>
+            
+            <asp:Menu ID="Menu1" runat="server" CssClass="Mainmenu" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False"></asp:Menu>
+               
+                 <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1" OnSelectedNodeChanged="TreeView1_SelectedNodeChanged" ShowExpandCollapse="False"> 
+                     <LevelStyles>
+                         <asp:TreeNodeStyle CssClass="FirstLevelMenuItems" />
+                     </LevelStyles>
+                 </asp:TreeView>
+                 
+       
+                 
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+          
+        </nav>
+        <section id="MainContent">
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </section>
+         <footer>
+            	<p>YAMAHA MOTO VIETNAM</p>
+                <p>Công ty TNHH Yamaha Motor Việt Nam |
+                   Ngày thành lập: 24/1/1998 |
+                   Giấy phép đầu tư: 011022000179 |
+                   Trụ sở: Xã Trung Giã, huyện Sóc Sơn, Hà Nội |
+                   Sản phẩm: Sản xuất lắp ráp xe máy nhãn hiệu Yamaha, linh kiện, phụ tùng xe máy và cung cấp dịch vụ bảo hành sửa chữa xe máy.</p>
+        </footer>
+
+        
+    </div>
+    </form>
+</body>
+</html>

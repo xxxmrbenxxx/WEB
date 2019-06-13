@@ -1,0 +1,9 @@
+﻿Xin chào,
+
+Đây là thông tin khách hàng vừa được gửi tới Yamaha MotoVietNam
+
+Tên:                          ##Name## 
+Email:                        ##Email##
+Số điện thoại cá nhân:        ##HomePhone##
+Số điện thoại cơ quan:        ##BusinessPhone##
+Chú thích:                    ##Comments##
