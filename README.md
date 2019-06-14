@@ -1,14 +1,14 @@
 <h1> Trang web bán xe máy Yamaha Moto Việt Nam </h1> </br>
 
-<p> 1. Trang web được thiết kế có thể thay đổi giữa 2 phong nền khác nhau tạo sự mới mẽ khi bạn ghé trang web để tra thông tin xe mà bạn muốn mua </p> </br>
-<p> 2. Ở nền 1 : Phong nền chủ yếu là nền màu xanh dương nhạt . </p> </br>
+   <p>1. Trang web được thiết kế có thể thay đổi giữa 2 phong nền khác nhau tạo sự mới mẽ khi bạn ghé trang web để tra thông tin xe mà bạn muốn mua </p> </br>
+   <p>  2. Ở nền 1 : Phong nền chủ yếu là nền màu xanh dương nhạt . </p> </br>
 
-3. <img src="image/trangchu.png" width="700px"/> </br>
+   3. <img src="image/trangchu.png" width="700px"/> </br>
 
 
-<p>4. Ở nền 2 : Phong nền chủ yếu là nền màu tím nhạt.</p> </br>
+   <p> 4. Ở nền 2 : Phong nền chủ yếu là nền màu tím nhạt.</p> </br>
  
-5. <img src="anh1/nen2.png" width="700px"/> </br>
+   5. <img src="anh1/nen2.png" width="700px"/> </br>
 
    <p>6. Trang chủ được trưng bày những loại xe được người dùng ưa chuộng hiện nay , có thể nói là hot hất hiện nay .</p> </br>
    7. <img src="image/trangchu.png" width="700px"/></br>
@@ -17,7 +17,7 @@
 
    10. Bạn rê chuột sang phần sản phẩm và đừng vội click chuột vào nó mà hãy đợi nó hiện ra 2 sự lựa chọn đó là XE SỐ vs Xe GA . </br>
 
-   11 <img src="image/sanpham.png" width="700px"/> </br>
+   11. <img src="image/sanpham.png" width="700px"/> </br>
 
    12. Khi bạn đã xem thông tin chi tiết của từng loại xe ở 2 phần XE SỐ vs XE GA kia thì tiếp theo hãy sang tiếp phần LOẠI NHỚT . </br>
 
@@ -39,4 +39,4 @@
    21. Dữ liệu sql </br>
    22. <img src="image/sql.png" width="700px"/> </br>
 
-<p> 21. Chân thành cảm ơn bạn đã xem qua phần giới thiệu về trang web bán xe của cửa hàng chúng tôi </p> 
+<h2> Chân thành cảm ơn bạn đã xem qua phần giới thiệu về trang web bán xe của cửa hàng chúng tôi </h2> 
