@@ -36,7 +36,7 @@
    19. Dưới cùng là danh sách các khách hàng đã mua xe tại cửa hàng trong năm 2019 để bạn xem thêm . </br>
 
    20. <img src="image/CSDL.png" width="700px"/> </br>
-   21. Dữ liệu sql </br>
+   21. Và đây là cơ sở dữ liệu SQL Server </br>
    22. <img src="image/sql.png" width="700px"/> </br>
 
 <h2> Chân thành cảm ơn bạn đã xem qua phần giới thiệu về trang web bán xe của cửa hàng chúng tôi </h2> 
